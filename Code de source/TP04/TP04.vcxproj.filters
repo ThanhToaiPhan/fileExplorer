@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TP04.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Visualpharm-Icons8-Metro-Style-Adds-Add-folder.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Visualpharm-Icons8-Metro-Style-Buzz-Recurring-appointment.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Visualpharm-Icons8-Metro-Style-Data-Database.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Visualpharm-Icons8-Metro-Style-Folders-Folder.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Visualpharm-Icons8-Metro-Style-Arrows-Right-circular.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Animals-Dog-House.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Computer-Hardware-Monitor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Data-List.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon9.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Arrows-Redo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Arrows-Undo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Editing-Overview-Pages-1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Exe.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-7zip.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Asc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Avi.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Csv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Dll.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Dmg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Flv.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Gif.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Gis.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Gpx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Jpg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Kml.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Kmz.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Mov.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Mp-3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Mpg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Nmea.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Ogg.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Osm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Pdf.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Png.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Powerpoint.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Psd.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Rar.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Txt.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Wma.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Word.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Xls.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Files-Zip.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon43.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Music-Note-Music.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Photo-Video-Film-2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-Image-File.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-File.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-Picture.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-Checkmark.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-Like-Outline.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Very-Basic-Search.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Icons8-Windows-8-Maps-Filled-Flag.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TP04.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TP04.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TP04.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

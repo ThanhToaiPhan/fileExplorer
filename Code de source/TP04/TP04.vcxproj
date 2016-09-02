@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7C4E56F-3218-47F7-A899-06FE09B98E87}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TP04</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="icon43.ico" />
+    <None Include="icon9.ico" />
+    <None Include="Icons8-Windows-8-Animals-Dog-House.ico" />
+    <None Include="Icons8-Windows-8-Arrows-Redo.ico" />
+    <None Include="Icons8-Windows-8-Arrows-Undo.ico" />
+    <None Include="Icons8-Windows-8-Computer-Hardware-Monitor.ico" />
+    <None Include="Icons8-Windows-8-Data-List.ico" />
+    <None Include="Icons8-Windows-8-Editing-Overview-Pages-1.ico" />
+    <None Include="Icons8-Windows-8-Files-7zip.ico" />
+    <None Include="Icons8-Windows-8-Files-Asc.ico" />
+    <None Include="Icons8-Windows-8-Files-Avi.ico" />
+    <None Include="Icons8-Windows-8-Files-Csv.ico" />
+    <None Include="Icons8-Windows-8-Files-Dll.ico" />
+    <None Include="Icons8-Windows-8-Files-Dmg.ico" />
+    <None Include="Icons8-Windows-8-Files-Exe.ico" />
+    <None Include="Icons8-Windows-8-Files-Flv.ico" />
+    <None Include="Icons8-Windows-8-Files-Gif.ico" />
+    <None Include="Icons8-Windows-8-Files-Gis.ico" />
+    <None Include="Icons8-Windows-8-Files-Gpx.ico" />
+    <None Include="Icons8-Windows-8-Files-Jpg.ico" />
+    <None Include="Icons8-Windows-8-Files-Kml.ico" />
+    <None Include="Icons8-Windows-8-Files-Kmz.ico" />
+    <None Include="Icons8-Windows-8-Files-Mov.ico" />
+    <None Include="Icons8-Windows-8-Files-Mp-3.ico" />
+    <None Include="Icons8-Windows-8-Files-Mpg.ico" />
+    <None Include="Icons8-Windows-8-Files-Nmea.ico" />
+    <None Include="Icons8-Windows-8-Files-Ogg.ico" />
+    <None Include="Icons8-Windows-8-Files-Osm.ico" />
+    <None Include="Icons8-Windows-8-Files-Pdf.ico" />
+    <None Include="Icons8-Windows-8-Files-Png.ico" />
+    <None Include="Icons8-Windows-8-Files-Powerpoint.ico" />
+    <None Include="Icons8-Windows-8-Files-Psd.ico" />
+    <None Include="Icons8-Windows-8-Files-Rar.ico" />
+    <None Include="Icons8-Windows-8-Files-Txt.ico" />
+    <None Include="Icons8-Windows-8-Files-Wma.ico" />
+    <None Include="Icons8-Windows-8-Files-Word.ico" />
+    <None Include="Icons8-Windows-8-Files-Xls.ico" />
+    <None Include="Icons8-Windows-8-Files-Zip.ico" />
+    <None Include="Icons8-Windows-8-Maps-Filled-Flag.ico" />
+    <None Include="Icons8-Windows-8-Music-Note-Music.ico" />
+    <None Include="Icons8-Windows-8-Photo-Video-Film-2.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-Checkmark.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-File.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-Image-File.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-Like-Outline.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-Picture.ico" />
+    <None Include="Icons8-Windows-8-Very-Basic-Search.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+    <None Include="TP04.ico" />
+    <None Include="Visualpharm-Icons8-Metro-Style-Adds-Add-folder.ico" />
+    <None Include="Visualpharm-Icons8-Metro-Style-Arrows-Right-circular.ico" />
+    <None Include="Visualpharm-Icons8-Metro-Style-Buzz-Recurring-appointment.ico" />
+    <None Include="Visualpharm-Icons8-Metro-Style-Data-Database.ico" />
+    <None Include="Visualpharm-Icons8-Metro-Style-Folders-Folder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TP04.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TP04.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TP04.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
